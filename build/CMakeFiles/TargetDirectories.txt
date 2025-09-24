@@ -1,0 +1,6 @@
+/home/andrey/OOP/build/CMakeFiles/edit_cache.dir
+/home/andrey/OOP/build/CMakeFiles/rebuild_cache.dir
+/home/andrey/OOP/build/lab1/CMakeFiles/lab1.dir
+/home/andrey/OOP/build/lab1/CMakeFiles/lab1_tests.dir
+/home/andrey/OOP/build/lab1/CMakeFiles/edit_cache.dir
+/home/andrey/OOP/build/lab1/CMakeFiles/rebuild_cache.dir
