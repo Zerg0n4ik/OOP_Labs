@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "lab1_utils.h"
+#include "../include/lab1_utils.h"
 
 TEST(GCDTest, BasicCases) {
     EXPECT_EQ(maxDiv(12, 18), 6);

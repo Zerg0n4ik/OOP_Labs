@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/lab1_tests.dir/test/test.o CMakeFiles/lab1_tests.dir/src/lab1_utils.o -o lab1_tests  -lGTest::gtest_main 

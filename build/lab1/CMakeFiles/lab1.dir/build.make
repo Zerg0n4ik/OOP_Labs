@@ -83,30 +83,30 @@ lab1/CMakeFiles/lab1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/main.cpp.s"
 	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/OOP/lab1/main.cpp -o CMakeFiles/lab1.dir/main.cpp.s
 
-lab1/CMakeFiles/lab1.dir/lab1_utils.cpp.o: lab1/CMakeFiles/lab1.dir/flags.make
-lab1/CMakeFiles/lab1.dir/lab1_utils.cpp.o: ../lab1/lab1_utils.cpp
-lab1/CMakeFiles/lab1.dir/lab1_utils.cpp.o: lab1/CMakeFiles/lab1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab1/CMakeFiles/lab1.dir/lab1_utils.cpp.o"
-	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab1/CMakeFiles/lab1.dir/lab1_utils.cpp.o -MF CMakeFiles/lab1.dir/lab1_utils.cpp.o.d -o CMakeFiles/lab1.dir/lab1_utils.cpp.o -c /home/andrey/OOP/lab1/lab1_utils.cpp
+lab1/CMakeFiles/lab1.dir/src/lab1_utils.cpp.o: lab1/CMakeFiles/lab1.dir/flags.make
+lab1/CMakeFiles/lab1.dir/src/lab1_utils.cpp.o: ../lab1/src/lab1_utils.cpp
+lab1/CMakeFiles/lab1.dir/src/lab1_utils.cpp.o: lab1/CMakeFiles/lab1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab1/CMakeFiles/lab1.dir/src/lab1_utils.cpp.o"
+	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab1/CMakeFiles/lab1.dir/src/lab1_utils.cpp.o -MF CMakeFiles/lab1.dir/src/lab1_utils.cpp.o.d -o CMakeFiles/lab1.dir/src/lab1_utils.cpp.o -c /home/andrey/OOP/lab1/src/lab1_utils.cpp
 
-lab1/CMakeFiles/lab1.dir/lab1_utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/lab1_utils.cpp.i"
-	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/OOP/lab1/lab1_utils.cpp > CMakeFiles/lab1.dir/lab1_utils.cpp.i
+lab1/CMakeFiles/lab1.dir/src/lab1_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/src/lab1_utils.cpp.i"
+	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/OOP/lab1/src/lab1_utils.cpp > CMakeFiles/lab1.dir/src/lab1_utils.cpp.i
 
-lab1/CMakeFiles/lab1.dir/lab1_utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/lab1_utils.cpp.s"
-	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/OOP/lab1/lab1_utils.cpp -o CMakeFiles/lab1.dir/lab1_utils.cpp.s
+lab1/CMakeFiles/lab1.dir/src/lab1_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/src/lab1_utils.cpp.s"
+	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/OOP/lab1/src/lab1_utils.cpp -o CMakeFiles/lab1.dir/src/lab1_utils.cpp.s
 
 # Object files for target lab1
 lab1_OBJECTS = \
 "CMakeFiles/lab1.dir/main.cpp.o" \
-"CMakeFiles/lab1.dir/lab1_utils.cpp.o"
+"CMakeFiles/lab1.dir/src/lab1_utils.cpp.o"
 
 # External object files for target lab1
 lab1_EXTERNAL_OBJECTS =
 
 lab1/lab1: lab1/CMakeFiles/lab1.dir/main.cpp.o
-lab1/lab1: lab1/CMakeFiles/lab1.dir/lab1_utils.cpp.o
+lab1/lab1: lab1/CMakeFiles/lab1.dir/src/lab1_utils.cpp.o
 lab1/lab1: lab1/CMakeFiles/lab1.dir/build.make
 lab1/lab1: lab1/CMakeFiles/lab1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrey/OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab1"

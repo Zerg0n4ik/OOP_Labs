@@ -129,29 +129,66 @@ lab1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/build
 .PHONY : lab1/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+#=============================================================================
+# Target rules for targets named lab1_tests
+
+# Build rule for target.
+lab1_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab1_tests
+.PHONY : lab1_tests
+
+# fast build rule for target.
+lab1_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1_tests.dir/build.make CMakeFiles/lab1_tests.dir/build
+.PHONY : lab1_tests/fast
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
+main.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/main.o
+.PHONY : main.o
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
+main.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/main.i
+.PHONY : main.i
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/main.cpp.s
-.PHONY : main.cpp.s
+main.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/main.s
+.PHONY : main.s
+
+# target to build an object file
+src/lab1_utils.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/src/lab1_utils.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1_tests.dir/build.make CMakeFiles/lab1_tests.dir/src/lab1_utils.o
+.PHONY : src/lab1_utils.o
+
+# target to preprocess a source file
+src/lab1_utils.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/src/lab1_utils.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1_tests.dir/build.make CMakeFiles/lab1_tests.dir/src/lab1_utils.i
+.PHONY : src/lab1_utils.i
+
+# target to generate assembly for a file
+src/lab1_utils.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/src/lab1_utils.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1_tests.dir/build.make CMakeFiles/lab1_tests.dir/src/lab1_utils.s
+.PHONY : src/lab1_utils.s
+
+# target to build an object file
+test/test.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1_tests.dir/build.make CMakeFiles/lab1_tests.dir/test/test.o
+.PHONY : test/test.o
+
+# target to preprocess a source file
+test/test.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1_tests.dir/build.make CMakeFiles/lab1_tests.dir/test/test.i
+.PHONY : test/test.i
+
+# target to generate assembly for a file
+test/test.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1_tests.dir/build.make CMakeFiles/lab1_tests.dir/test/test.s
+.PHONY : test/test.s
 
 # Help Target
 help:
@@ -162,9 +199,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lab1"
+	@echo "... lab1_tests"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/lab1_utils.o"
+	@echo "... src/lab1_utils.i"
+	@echo "... src/lab1_utils.s"
+	@echo "... test/test.o"
+	@echo "... test/test.i"
+	@echo "... test/test.s"
 .PHONY : help
 
 

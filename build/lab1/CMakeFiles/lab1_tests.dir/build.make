@@ -69,44 +69,44 @@ include lab1/CMakeFiles/lab1_tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include lab1/CMakeFiles/lab1_tests.dir/flags.make
 
-lab1/CMakeFiles/lab1_tests.dir/test.cpp.o: lab1/CMakeFiles/lab1_tests.dir/flags.make
-lab1/CMakeFiles/lab1_tests.dir/test.cpp.o: ../lab1/test.cpp
-lab1/CMakeFiles/lab1_tests.dir/test.cpp.o: lab1/CMakeFiles/lab1_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/CMakeFiles/lab1_tests.dir/test.cpp.o"
-	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab1/CMakeFiles/lab1_tests.dir/test.cpp.o -MF CMakeFiles/lab1_tests.dir/test.cpp.o.d -o CMakeFiles/lab1_tests.dir/test.cpp.o -c /home/andrey/OOP/lab1/test.cpp
+lab1/CMakeFiles/lab1_tests.dir/test/test.cpp.o: lab1/CMakeFiles/lab1_tests.dir/flags.make
+lab1/CMakeFiles/lab1_tests.dir/test/test.cpp.o: ../lab1/test/test.cpp
+lab1/CMakeFiles/lab1_tests.dir/test/test.cpp.o: lab1/CMakeFiles/lab1_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/CMakeFiles/lab1_tests.dir/test/test.cpp.o"
+	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab1/CMakeFiles/lab1_tests.dir/test/test.cpp.o -MF CMakeFiles/lab1_tests.dir/test/test.cpp.o.d -o CMakeFiles/lab1_tests.dir/test/test.cpp.o -c /home/andrey/OOP/lab1/test/test.cpp
 
-lab1/CMakeFiles/lab1_tests.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1_tests.dir/test.cpp.i"
-	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/OOP/lab1/test.cpp > CMakeFiles/lab1_tests.dir/test.cpp.i
+lab1/CMakeFiles/lab1_tests.dir/test/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1_tests.dir/test/test.cpp.i"
+	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/OOP/lab1/test/test.cpp > CMakeFiles/lab1_tests.dir/test/test.cpp.i
 
-lab1/CMakeFiles/lab1_tests.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1_tests.dir/test.cpp.s"
-	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/OOP/lab1/test.cpp -o CMakeFiles/lab1_tests.dir/test.cpp.s
+lab1/CMakeFiles/lab1_tests.dir/test/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1_tests.dir/test/test.cpp.s"
+	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/OOP/lab1/test/test.cpp -o CMakeFiles/lab1_tests.dir/test/test.cpp.s
 
-lab1/CMakeFiles/lab1_tests.dir/lab1_utils.cpp.o: lab1/CMakeFiles/lab1_tests.dir/flags.make
-lab1/CMakeFiles/lab1_tests.dir/lab1_utils.cpp.o: ../lab1/lab1_utils.cpp
-lab1/CMakeFiles/lab1_tests.dir/lab1_utils.cpp.o: lab1/CMakeFiles/lab1_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab1/CMakeFiles/lab1_tests.dir/lab1_utils.cpp.o"
-	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab1/CMakeFiles/lab1_tests.dir/lab1_utils.cpp.o -MF CMakeFiles/lab1_tests.dir/lab1_utils.cpp.o.d -o CMakeFiles/lab1_tests.dir/lab1_utils.cpp.o -c /home/andrey/OOP/lab1/lab1_utils.cpp
+lab1/CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.o: lab1/CMakeFiles/lab1_tests.dir/flags.make
+lab1/CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.o: ../lab1/src/lab1_utils.cpp
+lab1/CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.o: lab1/CMakeFiles/lab1_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab1/CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.o"
+	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lab1/CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.o -MF CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.o.d -o CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.o -c /home/andrey/OOP/lab1/src/lab1_utils.cpp
 
-lab1/CMakeFiles/lab1_tests.dir/lab1_utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1_tests.dir/lab1_utils.cpp.i"
-	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/OOP/lab1/lab1_utils.cpp > CMakeFiles/lab1_tests.dir/lab1_utils.cpp.i
+lab1/CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.i"
+	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/OOP/lab1/src/lab1_utils.cpp > CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.i
 
-lab1/CMakeFiles/lab1_tests.dir/lab1_utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1_tests.dir/lab1_utils.cpp.s"
-	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/OOP/lab1/lab1_utils.cpp -o CMakeFiles/lab1_tests.dir/lab1_utils.cpp.s
+lab1/CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.s"
+	cd /home/andrey/OOP/build/lab1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/OOP/lab1/src/lab1_utils.cpp -o CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.s
 
 # Object files for target lab1_tests
 lab1_tests_OBJECTS = \
-"CMakeFiles/lab1_tests.dir/test.cpp.o" \
-"CMakeFiles/lab1_tests.dir/lab1_utils.cpp.o"
+"CMakeFiles/lab1_tests.dir/test/test.cpp.o" \
+"CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.o"
 
 # External object files for target lab1_tests
 lab1_tests_EXTERNAL_OBJECTS =
 
-lab1/lab1_tests: lab1/CMakeFiles/lab1_tests.dir/test.cpp.o
-lab1/lab1_tests: lab1/CMakeFiles/lab1_tests.dir/lab1_utils.cpp.o
+lab1/lab1_tests: lab1/CMakeFiles/lab1_tests.dir/test/test.cpp.o
+lab1/lab1_tests: lab1/CMakeFiles/lab1_tests.dir/src/lab1_utils.cpp.o
 lab1/lab1_tests: lab1/CMakeFiles/lab1_tests.dir/build.make
 lab1/lab1_tests: /usr/lib/x86_64-linux-gnu/libgtest_main.a
 lab1/lab1_tests: /usr/lib/x86_64-linux-gnu/libgtest.a

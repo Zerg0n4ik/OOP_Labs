@@ -1,5 +1,5 @@
 #include <algorithm>
-#include "lab1_utils.h"
+#include "../include/lab1_utils.h"
 
 using namespace std;
 
