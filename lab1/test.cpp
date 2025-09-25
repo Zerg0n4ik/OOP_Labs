@@ -18,5 +18,25 @@ TEST(GCDTest, SameNumbers) {
 
 TEST(GCDTest, EdgeCases) {
     EXPECT_EQ(maxDiv(1, 100), 1);
-    EXPECT_EQ(maxDiv(0, 5), 0);  
+    EXPECT_EQ(maxDiv(0, 5), 5);  
+}
+
+TEST(GCDTest, ZeroZero) {
+    EXPECT_EQ(maxDiv(0, 0), 0);
+    EXPECT_EQ(maxDiv(0, 0), 0);  
+}
+
+TEST(GCDTest, ZeroNotZero) {
+    EXPECT_EQ(maxDiv(0, 100), 100);
+    EXPECT_EQ(maxDiv(10, 0), 10);  
+}
+
+TEST(GCDTest, PlusMinus) {
+    EXPECT_EQ(maxDiv(-25, 100), 25);
+    EXPECT_EQ(maxDiv(25, -5), 5);  
+}
+
+TEST(GCDTest, MinusMinus) {
+    EXPECT_EQ(maxDiv(-50, -100), 50);
+    EXPECT_EQ(maxDiv(-25, -10), 5);  
 }

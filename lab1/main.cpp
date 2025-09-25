@@ -10,6 +10,10 @@ int main() {
     cout << "Введите второе число: ";
     cin >> b;
     result = maxDiv(a, b);
+    if (result == 0) {
+        cout << "inf" << endl;
+        return -1;
+    }
     cout << result << endl; 
     return 0;
 }
