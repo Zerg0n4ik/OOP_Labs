@@ -108,7 +108,7 @@ Octal::~Octal() noexcept {
 // Сумма
 Octal Octal::add(const Octal& other) const {
     size_t new_size = std::max(size, other.size) + 1;
-    unsigned char* new_digits = new unsigned char[new_size];
+    unsigned char* new_digits = new unsigned char[new_size]();
     unsigned char carry = 0;
     for (size_t i = 0; i < new_size; i++) {
         unsigned char sum = carry;
@@ -134,7 +134,7 @@ Octal Octal::subtract(const Octal& other) const {
     if (lessThan(other)) {
         throw std::invalid_argument("Без негатива");
     }
-    unsigned char* new_digits = new unsigned char[size];
+    unsigned char* new_digits = new unsigned char[size]();
     unsigned char borrow = 0;
     for (size_t i = 0; i < size; i++) {
         int sub = digits[i] - borrow;

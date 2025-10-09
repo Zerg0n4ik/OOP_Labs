@@ -6,7 +6,7 @@ int main() {
         Octal a("451");
         Octal b("321");
         Octal c{1, 5, 6};
-        Octal d(4, 3);
+        Octal d(4 );
         std::cout << "a = " << a.toString() << std::endl;
         std::cout << "b = " << b.toString() << std::endl;
         std::cout << "c = " << c.toString() << std::endl;
