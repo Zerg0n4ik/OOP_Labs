@@ -4,3 +4,7 @@
 /home/andrey/OOP/build/lab1/CMakeFiles/lab1_tests.dir
 /home/andrey/OOP/build/lab1/CMakeFiles/edit_cache.dir
 /home/andrey/OOP/build/lab1/CMakeFiles/rebuild_cache.dir
+/home/andrey/OOP/build/lab2/CMakeFiles/lab2.dir
+/home/andrey/OOP/build/lab2/CMakeFiles/lab2_tests.dir
+/home/andrey/OOP/build/lab2/CMakeFiles/edit_cache.dir
+/home/andrey/OOP/build/lab2/CMakeFiles/rebuild_cache.dir

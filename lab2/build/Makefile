@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrey/OOP
+CMAKE_SOURCE_DIR = /home/andrey/OOP/lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrey/OOP/build
+CMAKE_BINARY_DIR = /home/andrey/OOP/lab2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP/build/CMakeFiles /home/andrey/OOP/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP/lab2/build/CMakeFiles /home/andrey/OOP/lab2/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP/lab2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,32 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab1
-
-# Build rule for target.
-lab1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab1
-.PHONY : lab1
-
-# fast build rule for target.
-lab1/fast:
-	$(MAKE) $(MAKESILENT) -f lab1/CMakeFiles/lab1.dir/build.make lab1/CMakeFiles/lab1.dir/build
-.PHONY : lab1/fast
-
-#=============================================================================
-# Target rules for targets named lab1_tests
-
-# Build rule for target.
-lab1_tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab1_tests
-.PHONY : lab1_tests
-
-# fast build rule for target.
-lab1_tests/fast:
-	$(MAKE) $(MAKESILENT) -f lab1/CMakeFiles/lab1_tests.dir/build.make lab1/CMakeFiles/lab1_tests.dir/build
-.PHONY : lab1_tests/fast
-
-#=============================================================================
 # Target rules for targets named lab2
 
 # Build rule for target.
@@ -152,21 +126,56 @@ lab2: cmake_check_build_system
 
 # fast build rule for target.
 lab2/fast:
-	$(MAKE) $(MAKESILENT) -f lab2/CMakeFiles/lab2.dir/build.make lab2/CMakeFiles/lab2.dir/build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/build
 .PHONY : lab2/fast
 
-#=============================================================================
-# Target rules for targets named lab2_tests
+lab2_utils.o: lab2_utils.cpp.o
+.PHONY : lab2_utils.o
 
-# Build rule for target.
-lab2_tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab2_tests
-.PHONY : lab2_tests
+# target to build an object file
+lab2_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/lab2_utils.cpp.o
+.PHONY : lab2_utils.cpp.o
 
-# fast build rule for target.
-lab2_tests/fast:
-	$(MAKE) $(MAKESILENT) -f lab2/CMakeFiles/lab2_tests.dir/build.make lab2/CMakeFiles/lab2_tests.dir/build
-.PHONY : lab2_tests/fast
+lab2_utils.i: lab2_utils.cpp.i
+.PHONY : lab2_utils.i
+
+# target to preprocess a source file
+lab2_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/lab2_utils.cpp.i
+.PHONY : lab2_utils.cpp.i
+
+lab2_utils.s: lab2_utils.cpp.s
+.PHONY : lab2_utils.s
+
+# target to generate assembly for a file
+lab2_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/lab2_utils.cpp.s
+.PHONY : lab2_utils.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -176,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... lab1"
-	@echo "... lab1_tests"
 	@echo "... lab2"
-	@echo "... lab2_tests"
+	@echo "... lab2_utils.o"
+	@echo "... lab2_utils.i"
+	@echo "... lab2_utils.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

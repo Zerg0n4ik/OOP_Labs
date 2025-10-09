@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "../lab1/CMakeLists.txt"
+  "../lab2/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/GTest/GMockTargets-none.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/GTest/GMockTargets.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake"
@@ -57,10 +58,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab1/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab2/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "lab1/CMakeFiles/lab1.dir/DependInfo.cmake"
   "lab1/CMakeFiles/lab1_tests.dir/DependInfo.cmake"
+  "lab2/CMakeFiles/lab2.dir/DependInfo.cmake"
+  "lab2/CMakeFiles/lab2_tests.dir/DependInfo.cmake"
   )
