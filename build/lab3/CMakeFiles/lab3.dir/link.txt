@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lab3.dir/main.cpp.o CMakeFiles/lab3.dir/src/Figure.cpp.o CMakeFiles/lab3.dir/src/Romb.cpp.o CMakeFiles/lab3.dir/src/Hexagon.cpp.o CMakeFiles/lab3.dir/src/Pentagon.cpp.o -o lab3 

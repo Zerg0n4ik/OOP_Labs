@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lab3_tests.dir/test/test.cpp.o CMakeFiles/lab3_tests.dir/src/Figure.cpp.o CMakeFiles/lab3_tests.dir/src/Romb.cpp.o CMakeFiles/lab3_tests.dir/src/Hexagon.cpp.o CMakeFiles/lab3_tests.dir/src/Pentagon.cpp.o -o lab3_tests  /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a 
