@@ -23,6 +23,10 @@ public:
     bool operator==(const point& other) const {
             return x == other.x && y == other.y;
         }
+
+    bool operator!=(const point& other) const {
+            return !(*this == other);
+        }
     };
 
     virtual ~Figure() = default;
@@ -30,16 +34,15 @@ public:
     virtual const point geometricCenter() const = 0;
     virtual double area() const = 0;
     virtual void print(ostream& os) const = 0;
-    virtual void read(istream& is) const = 0;
+    virtual void read(istream& is) = 0;
     virtual bool isEqual(Figure& other) const = 0;
 
     virtual operator double() {
         return area();
     }
-
 };
 
-inline ostream& operator<<(ostream& os, Figure& figure);
-inline ostream& operator>>(istream& is, Figure& figure);
+ostream& operator<<(ostream& os, const Figure& figure);
+istream& operator>>(istream& is, Figure& figure);
 
 #endif 
