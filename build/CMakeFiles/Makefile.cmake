@@ -14,6 +14,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/andrey/OOP_Labs/lab1/CMakeLists.txt"
   "/home/andrey/OOP_Labs/lab2/CMakeLists.txt"
   "/home/andrey/OOP_Labs/lab3/CMakeLists.txt"
+  "/home/andrey/OOP_Labs/lab4/CMakeLists.txt"
+  "/home/andrey/OOP_Labs/lab5/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets-none.cmake"
@@ -60,6 +62,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "lab1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab3/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab4/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab5/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -70,4 +74,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "lab2/CMakeFiles/lab2_tests.dir/DependInfo.cmake"
   "lab3/CMakeFiles/lab3.dir/DependInfo.cmake"
   "lab3/CMakeFiles/lab3_tests.dir/DependInfo.cmake"
+  "lab4/CMakeFiles/lab4.dir/DependInfo.cmake"
+  "lab4/CMakeFiles/lab4_tests.dir/DependInfo.cmake"
+  "lab5/CMakeFiles/lab5.dir/DependInfo.cmake"
+  "lab5/CMakeFiles/lab5_tests.dir/DependInfo.cmake"
   )

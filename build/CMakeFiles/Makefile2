@@ -66,18 +66,24 @@ CMAKE_BINARY_DIR = /home/andrey/OOP_Labs/build
 all: lab1/all
 all: lab2/all
 all: lab3/all
+all: lab4/all
+all: lab5/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: lab1/preinstall
 preinstall: lab2/preinstall
 preinstall: lab3/preinstall
+preinstall: lab4/preinstall
+preinstall: lab5/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: lab1/clean
 clean: lab2/clean
 clean: lab3/clean
+clean: lab4/clean
+clean: lab5/clean
 .PHONY : clean
 
 #=============================================================================
@@ -130,6 +136,40 @@ lab3/preinstall:
 lab3/clean: lab3/CMakeFiles/lab3.dir/clean
 lab3/clean: lab3/CMakeFiles/lab3_tests.dir/clean
 .PHONY : lab3/clean
+
+#=============================================================================
+# Directory level rules for directory lab4
+
+# Recursive "all" directory target.
+lab4/all: lab4/CMakeFiles/lab4.dir/all
+lab4/all: lab4/CMakeFiles/lab4_tests.dir/all
+.PHONY : lab4/all
+
+# Recursive "preinstall" directory target.
+lab4/preinstall:
+.PHONY : lab4/preinstall
+
+# Recursive "clean" directory target.
+lab4/clean: lab4/CMakeFiles/lab4.dir/clean
+lab4/clean: lab4/CMakeFiles/lab4_tests.dir/clean
+.PHONY : lab4/clean
+
+#=============================================================================
+# Directory level rules for directory lab5
+
+# Recursive "all" directory target.
+lab5/all: lab5/CMakeFiles/lab5.dir/all
+lab5/all: lab5/CMakeFiles/lab5_tests.dir/all
+.PHONY : lab5/all
+
+# Recursive "preinstall" directory target.
+lab5/preinstall:
+.PHONY : lab5/preinstall
+
+# Recursive "clean" directory target.
+lab5/clean: lab5/CMakeFiles/lab5.dir/clean
+lab5/clean: lab5/CMakeFiles/lab5_tests.dir/clean
+.PHONY : lab5/clean
 
 #=============================================================================
 # Target rules for target lab1/CMakeFiles/lab1.dir
@@ -286,6 +326,110 @@ lab3_tests: lab3/CMakeFiles/lab3_tests.dir/rule
 lab3/CMakeFiles/lab3_tests.dir/clean:
 	$(MAKE) $(MAKESILENT) -f lab3/CMakeFiles/lab3_tests.dir/build.make lab3/CMakeFiles/lab3_tests.dir/clean
 .PHONY : lab3/CMakeFiles/lab3_tests.dir/clean
+
+#=============================================================================
+# Target rules for target lab4/CMakeFiles/lab4.dir
+
+# All Build rule for target.
+lab4/CMakeFiles/lab4.dir/all:
+	$(MAKE) $(MAKESILENT) -f lab4/CMakeFiles/lab4.dir/build.make lab4/CMakeFiles/lab4.dir/depend
+	$(MAKE) $(MAKESILENT) -f lab4/CMakeFiles/lab4.dir/build.make lab4/CMakeFiles/lab4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/andrey/OOP_Labs/build/CMakeFiles --progress-num=25,26,27 "Built target lab4"
+.PHONY : lab4/CMakeFiles/lab4.dir/all
+
+# Build rule for subdir invocation for target.
+lab4/CMakeFiles/lab4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP_Labs/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab4/CMakeFiles/lab4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP_Labs/build/CMakeFiles 0
+.PHONY : lab4/CMakeFiles/lab4.dir/rule
+
+# Convenience name for target.
+lab4: lab4/CMakeFiles/lab4.dir/rule
+.PHONY : lab4
+
+# clean rule for target.
+lab4/CMakeFiles/lab4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lab4/CMakeFiles/lab4.dir/build.make lab4/CMakeFiles/lab4.dir/clean
+.PHONY : lab4/CMakeFiles/lab4.dir/clean
+
+#=============================================================================
+# Target rules for target lab4/CMakeFiles/lab4_tests.dir
+
+# All Build rule for target.
+lab4/CMakeFiles/lab4_tests.dir/all:
+	$(MAKE) $(MAKESILENT) -f lab4/CMakeFiles/lab4_tests.dir/build.make lab4/CMakeFiles/lab4_tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f lab4/CMakeFiles/lab4_tests.dir/build.make lab4/CMakeFiles/lab4_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/andrey/OOP_Labs/build/CMakeFiles --progress-num=28,29,30 "Built target lab4_tests"
+.PHONY : lab4/CMakeFiles/lab4_tests.dir/all
+
+# Build rule for subdir invocation for target.
+lab4/CMakeFiles/lab4_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP_Labs/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab4/CMakeFiles/lab4_tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP_Labs/build/CMakeFiles 0
+.PHONY : lab4/CMakeFiles/lab4_tests.dir/rule
+
+# Convenience name for target.
+lab4_tests: lab4/CMakeFiles/lab4_tests.dir/rule
+.PHONY : lab4_tests
+
+# clean rule for target.
+lab4/CMakeFiles/lab4_tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lab4/CMakeFiles/lab4_tests.dir/build.make lab4/CMakeFiles/lab4_tests.dir/clean
+.PHONY : lab4/CMakeFiles/lab4_tests.dir/clean
+
+#=============================================================================
+# Target rules for target lab5/CMakeFiles/lab5.dir
+
+# All Build rule for target.
+lab5/CMakeFiles/lab5.dir/all:
+	$(MAKE) $(MAKESILENT) -f lab5/CMakeFiles/lab5.dir/build.make lab5/CMakeFiles/lab5.dir/depend
+	$(MAKE) $(MAKESILENT) -f lab5/CMakeFiles/lab5.dir/build.make lab5/CMakeFiles/lab5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/andrey/OOP_Labs/build/CMakeFiles --progress-num=31,32,33 "Built target lab5"
+.PHONY : lab5/CMakeFiles/lab5.dir/all
+
+# Build rule for subdir invocation for target.
+lab5/CMakeFiles/lab5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP_Labs/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab5/CMakeFiles/lab5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP_Labs/build/CMakeFiles 0
+.PHONY : lab5/CMakeFiles/lab5.dir/rule
+
+# Convenience name for target.
+lab5: lab5/CMakeFiles/lab5.dir/rule
+.PHONY : lab5
+
+# clean rule for target.
+lab5/CMakeFiles/lab5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lab5/CMakeFiles/lab5.dir/build.make lab5/CMakeFiles/lab5.dir/clean
+.PHONY : lab5/CMakeFiles/lab5.dir/clean
+
+#=============================================================================
+# Target rules for target lab5/CMakeFiles/lab5_tests.dir
+
+# All Build rule for target.
+lab5/CMakeFiles/lab5_tests.dir/all:
+	$(MAKE) $(MAKESILENT) -f lab5/CMakeFiles/lab5_tests.dir/build.make lab5/CMakeFiles/lab5_tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f lab5/CMakeFiles/lab5_tests.dir/build.make lab5/CMakeFiles/lab5_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/andrey/OOP_Labs/build/CMakeFiles --progress-num=34,35,36 "Built target lab5_tests"
+.PHONY : lab5/CMakeFiles/lab5_tests.dir/all
+
+# Build rule for subdir invocation for target.
+lab5/CMakeFiles/lab5_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP_Labs/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab5/CMakeFiles/lab5_tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP_Labs/build/CMakeFiles 0
+.PHONY : lab5/CMakeFiles/lab5_tests.dir/rule
+
+# Convenience name for target.
+lab5_tests: lab5/CMakeFiles/lab5_tests.dir/rule
+.PHONY : lab5_tests
+
+# clean rule for target.
+lab5/CMakeFiles/lab5_tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lab5/CMakeFiles/lab5_tests.dir/build.make lab5/CMakeFiles/lab5_tests.dir/clean
+.PHONY : lab5/CMakeFiles/lab5_tests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

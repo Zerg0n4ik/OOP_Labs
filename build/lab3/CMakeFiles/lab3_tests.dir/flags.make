@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/andrey/OOP_Labs/lab3
 
-CXX_FLAGS = -std=gnu++14 -DGTEST_HAS_PTHREAD=1
+CXX_FLAGS = -std=gnu++17 -DGTEST_HAS_PTHREAD=1
 

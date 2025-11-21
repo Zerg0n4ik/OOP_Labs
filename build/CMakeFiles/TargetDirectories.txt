@@ -12,3 +12,11 @@
 /home/andrey/OOP_Labs/build/lab3/CMakeFiles/lab3_tests.dir
 /home/andrey/OOP_Labs/build/lab3/CMakeFiles/edit_cache.dir
 /home/andrey/OOP_Labs/build/lab3/CMakeFiles/rebuild_cache.dir
+/home/andrey/OOP_Labs/build/lab4/CMakeFiles/lab4.dir
+/home/andrey/OOP_Labs/build/lab4/CMakeFiles/lab4_tests.dir
+/home/andrey/OOP_Labs/build/lab4/CMakeFiles/edit_cache.dir
+/home/andrey/OOP_Labs/build/lab4/CMakeFiles/rebuild_cache.dir
+/home/andrey/OOP_Labs/build/lab5/CMakeFiles/lab5.dir
+/home/andrey/OOP_Labs/build/lab5/CMakeFiles/lab5_tests.dir
+/home/andrey/OOP_Labs/build/lab5/CMakeFiles/edit_cache.dir
+/home/andrey/OOP_Labs/build/lab5/CMakeFiles/rebuild_cache.dir
