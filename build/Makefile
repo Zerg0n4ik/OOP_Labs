@@ -246,6 +246,32 @@ lab5_tests/fast:
 	$(MAKE) $(MAKESILENT) -f lab5/CMakeFiles/lab5_tests.dir/build.make lab5/CMakeFiles/lab5_tests.dir/build
 .PHONY : lab5_tests/fast
 
+#=============================================================================
+# Target rules for targets named lab6
+
+# Build rule for target.
+lab6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab6
+.PHONY : lab6
+
+# fast build rule for target.
+lab6/fast:
+	$(MAKE) $(MAKESILENT) -f lab6/CMakeFiles/lab6.dir/build.make lab6/CMakeFiles/lab6.dir/build
+.PHONY : lab6/fast
+
+#=============================================================================
+# Target rules for targets named lab6_tests
+
+# Build rule for target.
+lab6_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab6_tests
+.PHONY : lab6_tests
+
+# fast build rule for target.
+lab6_tests/fast:
+	$(MAKE) $(MAKESILENT) -f lab6/CMakeFiles/lab6_tests.dir/build.make lab6/CMakeFiles/lab6_tests.dir/build
+.PHONY : lab6_tests/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -264,6 +290,8 @@ help:
 	@echo "... lab4_tests"
 	@echo "... lab5"
 	@echo "... lab5_tests"
+	@echo "... lab6"
+	@echo "... lab6_tests"
 .PHONY : help
 
 

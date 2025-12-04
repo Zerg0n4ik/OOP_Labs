@@ -49,6 +49,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/andrey/OOP_Labs/build/lab3/cmake_install.cmake")
   include("/home/andrey/OOP_Labs/build/lab4/cmake_install.cmake")
   include("/home/andrey/OOP_Labs/build/lab5/cmake_install.cmake")
+  include("/home/andrey/OOP_Labs/build/lab6/cmake_install.cmake")
 
 endif()
 

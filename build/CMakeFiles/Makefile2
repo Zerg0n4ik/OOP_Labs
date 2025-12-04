@@ -68,6 +68,7 @@ all: lab2/all
 all: lab3/all
 all: lab4/all
 all: lab5/all
+all: lab6/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ preinstall: lab2/preinstall
 preinstall: lab3/preinstall
 preinstall: lab4/preinstall
 preinstall: lab5/preinstall
+preinstall: lab6/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -84,6 +86,7 @@ clean: lab2/clean
 clean: lab3/clean
 clean: lab4/clean
 clean: lab5/clean
+clean: lab6/clean
 .PHONY : clean
 
 #=============================================================================
@@ -170,6 +173,23 @@ lab5/preinstall:
 lab5/clean: lab5/CMakeFiles/lab5.dir/clean
 lab5/clean: lab5/CMakeFiles/lab5_tests.dir/clean
 .PHONY : lab5/clean
+
+#=============================================================================
+# Directory level rules for directory lab6
+
+# Recursive "all" directory target.
+lab6/all: lab6/CMakeFiles/lab6.dir/all
+lab6/all: lab6/CMakeFiles/lab6_tests.dir/all
+.PHONY : lab6/all
+
+# Recursive "preinstall" directory target.
+lab6/preinstall:
+.PHONY : lab6/preinstall
+
+# Recursive "clean" directory target.
+lab6/clean: lab6/CMakeFiles/lab6.dir/clean
+lab6/clean: lab6/CMakeFiles/lab6_tests.dir/clean
+.PHONY : lab6/clean
 
 #=============================================================================
 # Target rules for target lab1/CMakeFiles/lab1.dir
@@ -430,6 +450,58 @@ lab5_tests: lab5/CMakeFiles/lab5_tests.dir/rule
 lab5/CMakeFiles/lab5_tests.dir/clean:
 	$(MAKE) $(MAKESILENT) -f lab5/CMakeFiles/lab5_tests.dir/build.make lab5/CMakeFiles/lab5_tests.dir/clean
 .PHONY : lab5/CMakeFiles/lab5_tests.dir/clean
+
+#=============================================================================
+# Target rules for target lab6/CMakeFiles/lab6.dir
+
+# All Build rule for target.
+lab6/CMakeFiles/lab6.dir/all:
+	$(MAKE) $(MAKESILENT) -f lab6/CMakeFiles/lab6.dir/build.make lab6/CMakeFiles/lab6.dir/depend
+	$(MAKE) $(MAKESILENT) -f lab6/CMakeFiles/lab6.dir/build.make lab6/CMakeFiles/lab6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/andrey/OOP_Labs/build/CMakeFiles --progress-num=37,38,39 "Built target lab6"
+.PHONY : lab6/CMakeFiles/lab6.dir/all
+
+# Build rule for subdir invocation for target.
+lab6/CMakeFiles/lab6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP_Labs/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab6/CMakeFiles/lab6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP_Labs/build/CMakeFiles 0
+.PHONY : lab6/CMakeFiles/lab6.dir/rule
+
+# Convenience name for target.
+lab6: lab6/CMakeFiles/lab6.dir/rule
+.PHONY : lab6
+
+# clean rule for target.
+lab6/CMakeFiles/lab6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lab6/CMakeFiles/lab6.dir/build.make lab6/CMakeFiles/lab6.dir/clean
+.PHONY : lab6/CMakeFiles/lab6.dir/clean
+
+#=============================================================================
+# Target rules for target lab6/CMakeFiles/lab6_tests.dir
+
+# All Build rule for target.
+lab6/CMakeFiles/lab6_tests.dir/all:
+	$(MAKE) $(MAKESILENT) -f lab6/CMakeFiles/lab6_tests.dir/build.make lab6/CMakeFiles/lab6_tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f lab6/CMakeFiles/lab6_tests.dir/build.make lab6/CMakeFiles/lab6_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/andrey/OOP_Labs/build/CMakeFiles --progress-num=40,41,42 "Built target lab6_tests"
+.PHONY : lab6/CMakeFiles/lab6_tests.dir/all
+
+# Build rule for subdir invocation for target.
+lab6/CMakeFiles/lab6_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP_Labs/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab6/CMakeFiles/lab6_tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/OOP_Labs/build/CMakeFiles 0
+.PHONY : lab6/CMakeFiles/lab6_tests.dir/rule
+
+# Convenience name for target.
+lab6_tests: lab6/CMakeFiles/lab6_tests.dir/rule
+.PHONY : lab6_tests
+
+# clean rule for target.
+lab6/CMakeFiles/lab6_tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lab6/CMakeFiles/lab6_tests.dir/build.make lab6/CMakeFiles/lab6_tests.dir/clean
+.PHONY : lab6/CMakeFiles/lab6_tests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

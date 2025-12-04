@@ -20,3 +20,7 @@
 /home/andrey/OOP_Labs/build/lab5/CMakeFiles/lab5_tests.dir
 /home/andrey/OOP_Labs/build/lab5/CMakeFiles/edit_cache.dir
 /home/andrey/OOP_Labs/build/lab5/CMakeFiles/rebuild_cache.dir
+/home/andrey/OOP_Labs/build/lab6/CMakeFiles/lab6.dir
+/home/andrey/OOP_Labs/build/lab6/CMakeFiles/lab6_tests.dir
+/home/andrey/OOP_Labs/build/lab6/CMakeFiles/edit_cache.dir
+/home/andrey/OOP_Labs/build/lab6/CMakeFiles/rebuild_cache.dir
