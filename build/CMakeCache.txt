@@ -219,6 +219,24 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 GTest_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/GTest
 
 //Value Computed by CMake
+lab6_BINARY_DIR:STATIC=/home/andrey/OOP_Labs/build/lab7
+
+//Value Computed by CMake
+lab6_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+lab6_SOURCE_DIR:STATIC=/home/andrey/OOP_Labs/lab7
+
+//Value Computed by CMake
+lab7_BINARY_DIR:STATIC=/home/andrey/OOP_Labs/build/lab7
+
+//Value Computed by CMake
+lab7_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+lab7_SOURCE_DIR:STATIC=/home/andrey/OOP_Labs/lab7
+
+//Value Computed by CMake
 oop_labs_BINARY_DIR:STATIC=/home/andrey/OOP_Labs/build
 
 //Value Computed by CMake
@@ -334,7 +352,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -381,6 +399,8 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding GTest
 FIND_PACKAGE_MESSAGE_DETAILS_GTest:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake][c ][v1.14.0()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 
